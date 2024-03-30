@@ -13,8 +13,9 @@ JavaScript is a highly versatile programming language renowned for its ability t
 
 [Note 04 : Loops](./04_loop/loop.md)
 
-<!--[Note 05 : function](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/05-function)
-[Note 06 : Wroking with array](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/06-array)
+[Note 05 : function](./05_function/function.md)
+
+<!--[Note 06 : Wroking with array](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/06-array)
 [Note 07 : Objects](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/07-objects)
 [Note 08 : DOM](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/08-DOM)
 [Note 08 : Asynchronus Javascript](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/08-async)
