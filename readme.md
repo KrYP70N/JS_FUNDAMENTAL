@@ -7,10 +7,11 @@ JavaScript is a highly versatile programming language renowned for its ability t
 
 [Note 01 : Variable and Data Type](./01_variable/variable.md)
 
-[Note 02 : Operators](./02_operator/operator.md)
+[Note 02 : Operator](./02_operator/operator.md)
 
-<!-- [Note 03 : Control flow](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/03-control-flow)
-[Note 04 : Loops](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/04-loops)
+[Note 03 : Control flow](./03_control_flow/control_flow.md)
+
+<!--[Note 04 : Loops](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/04-loops)
 [Note 05 : function](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/05-function)
 [Note 06 : Wroking with array](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/06-array)
 [Note 07 : Objects](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/07-objects)
