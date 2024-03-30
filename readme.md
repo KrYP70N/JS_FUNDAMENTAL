@@ -1,12 +1,11 @@
 # JAVASCRIPT
 
-JavaScript is a versatile programming language used for creating dynamic and interactive web pages.
-In this repository, I will share fundamental concept of javascirpt. 
+JavaScript is a highly versatile programming language renowned for its ability to craft dynamic and interactive web pages. In this repository, I aim to demystify the fundamental concepts of JavaScript, offering insights and guidance for both novice and seasoned developers alike. From variables and data types to deployment strategy, this collection serves as a comprehensive resource for anyone looking to deepen their understanding of JavaScript programming. Whether you're embarking on your coding journey or seeking to sharpen your skills, let this repository be your companion in unlocking the full potential of JavaScript.
 
 
 ## CONTENTS
 
-[Note 01 : Variable and Data Type](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/01-variable-n-datatype)
+[Note 01 : Variable and Data Type](./01_variable/variable.md)
 <!-- [Note 02 : Operators and expressions](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/02-operator-n-expressions)
 [Note 03 : Control flow](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/03-control-flow)
 [Note 04 : Loops](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/04-loops)
