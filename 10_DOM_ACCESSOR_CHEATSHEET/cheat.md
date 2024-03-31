@@ -37,7 +37,17 @@ Accessing DOM elements is a fundamental aspect of web development, as it allows 
 | insertBefore(`node`, `beforeNode`)   | insert new element befored specified child node |
 
 
-## Special Property
+## Manipulation Attribute Methods
+
+| Method                               | Description                                     |
+| ------------------------------------ | ----------------------------------------------- |
+| getAttribute(`attribute`)            | get an attribute name of the element            | 
+| setAttribute(`key`, `value`)         | set attribute for the element                   |
+| hasAttribute(`name`)                 | check attribute is exist and return boolean     | 
+| removeAttribute(`name`)              | remove attribute from the element               |
+
+
+## Special Properties
  
 | Property                  | Description                         |
 | ------------------------- | ----------------------------------- | 
@@ -70,3 +80,18 @@ Accessing DOM elements is a fundamental aspect of web development, as it allows 
 | scrollLeft                | returns or sets the number of pixels the content of an element is scrolled horizontally |
 
 
+## Form Properties and Methods
+
+| Property / Methods        | Description                                           |
+| ------------------------- | ----------------------------------------------------- |
+| document.form             | returns a collection of all <form> elements in the document |
+| form.elements             | returns a collection of all form controls within a form     |
+| form.length               | returns the number of form controls in the form             |
+| form.action               | gets or sets the URL to which the form data will be submitted |
+| form.method               | Gets or sets the HTTP method used to submit the form        |
+| form.encodingType         | Gets or sets the enctype attribute, which determines how form data should be encoded before sending it to the server |
+| form.target                    | Gets or sets the name of the target frame or window where the form response should be displayed. |
+| form.submit()             | submits a form programmatically                             |
+| form.reset()              | reset a form programmatically                               | 
+| checkValidity()           | checks the validity of the form inputs according to their constraints |
+| input.pattern             | assign validation pattern for form input                    |
