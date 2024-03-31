@@ -17,10 +17,13 @@ JavaScript is a highly versatile programming language renowned for its ability t
 
 [Note 06 : Wroking with array](./06_array/array.md)
 
-[Note 07 : Objects](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/07-objects)
+[Note 07 : Objects](./07_objects/objects.md)
 
-<!-- [Note 08 : DOM](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/08-DOM)
-[Note 08 : Asynchronus Javascript](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/08-async)
+[Note 08 : DOM](./08_DOM/dom.md)
+
+[Note 09: Advance DOM](./09_advance_dom/advance_dom.md)
+
+<!-- [Note 08 : Asynchronus Javascript](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/08-async)
 [Note 09 : Error Handling](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/09-error-handling)
 [Note 10 : ES6+](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/10-es6-plus)
 [Note 11 : Working with API](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/11-api)

@@ -169,8 +169,13 @@ console.log(dog.speak()); // Output: Buddy barks.
 Here are some best practices for working with JavaScript objects:
 
 - Use object literal notation for simple objects.
+
 - Use constructor functions or ES6 classes for creating objects with shared behavior.
+
 - Prefer dot notation `(object.property)` when accessing properties directly.
+
 - Use bracket notation `(object["property"])` when accessing properties dynamically.
+
 - Be careful when modifying built-in object prototypes.
+
 - Leverage object destructuring and spread syntax for concise object manipulation.
