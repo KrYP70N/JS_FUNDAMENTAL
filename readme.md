@@ -25,7 +25,9 @@ JavaScript is a highly versatile programming language renowned for its ability t
 
 [Note 10: DOM Accessor Cheat Sheet](./10_DOM_ACCESSOR_CHEATSHEET/cheat.md)
 
-<!-- [Note 08 : Asynchronus Javascript](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/08-async)
+[Note 11: Asychronous Javascript](./11_ASYNC_JS/async-js.md)
+
+<!--
 [Note 09 : Error Handling](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/09-error-handling)
 [Note 10 : ES6+](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/10-es6-plus)
 [Note 11 : Working with API](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/11-api)
