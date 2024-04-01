@@ -5,6 +5,8 @@ Asynchronous JavaScript allows code execution to continue while waiting for cert
 
 ## Key concepts in Asynchronous Javascript
 
+## Promise
+
 ### Callbacks
 
 Callback functions are a fundamental building block of asynchronous JavaScript. They allow developers to define what should happen after an asynchronous operation completes. However, nested callbacks can lead to callback hell, making code difficult to read and maintain.
@@ -162,3 +164,57 @@ fetchData()
         console.log("Promise finally block executed");
     });
 ```
+
+
+## Async/Await
+
+Introduced in ES2017, async/await syntax provides a more intuitive way to write asynchronous code. Async functions return a promise, and the await keyword is used to wait for the resolution of a promise inside an async function. Async/await simplifies the syntax and structure of asynchronous code, making it easier to read and maintain.
+
+```
+// Function to fetch data from an API using async/await
+async function fetchData() {
+  try {
+    // Fetch data from the API
+    const response = await fetch('https://api.example.com/data');
+    
+    // Check if the response is successful
+    if (!response.ok) {
+      throw new Error('Failed to fetch data');
+    }
+    
+    // Parse the JSON response
+    const data = await response.json();
+    
+    // Log the fetched data
+    console.log('Fetched data:', data);
+    
+    // Return the data (optional)
+    return data;
+  } catch (error) {
+    // Handle any errors that occur during the fetch operation
+    console.error('Error fetching data:', error.message);
+    // Optionally rethrow the error
+    throw error;
+  }
+}
+
+// Call the fetchData function
+fetchData()
+  .then(data => {
+    // Do something with the fetched data
+    console.log('Data received:', data);
+  })
+  .catch(error => {
+    // Handle any errors that occurred during the fetch operation
+    console.error('Error:', error);
+  });
+```
+
+
+## Best Practices
+
+- **Use `Promises` or `Async/Await`**: Instead of relying on nested callbacks, prefer using `Promises` or `Async/Await` for handling asynchronous operations. They provide cleaner syntax and better error handling capabilities.
+
+- **Handle Errors Gracefully**: Always ensure that your asynchronous code includes error handling mechanisms to catch and handle any unexpected errors that may occur during execution.
+
+- **Avoid Blocking the Event Loop**: Be mindful of long-running synchronous tasks that could block the event loop and degrade application performance. Consider breaking down these tasks into smaller asynchronous operations or offloading them to a separate thread using Web Workers.
