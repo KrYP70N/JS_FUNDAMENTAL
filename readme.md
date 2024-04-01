@@ -33,6 +33,11 @@ JavaScript is a highly versatile programming language renowned for its ability t
 
 [Note 14: Working with API]()
 
+## APPENDANCE
+
+[Appendance 01: Closure](./APPENDANCE/AP01_CLOSURE.md)
+
+
 <!--
 [Note 10 : ES6+](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/10-es6-plus)
 [Note 12 : Libraries and Framework](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/12-lib-n-fw)

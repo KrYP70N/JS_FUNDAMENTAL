@@ -76,3 +76,45 @@ To fully grasp closures, it's essential to understand lexical scoping and how Ja
 
 Identify scenarios where closures can simplify your code or provide elegant solutions, such as creating private variables, maintaining state, or implementing functional programming patterns.
 
+```
+// Function to calculate the factorial of a number
+function calculateFactorial(n) {
+    if (n === 0 || n === 1) {
+        return 1;
+    } else {
+        return n * calculateFactorial(n - 1);
+    }
+}
+
+// Function to memoize the factorial calculation using closure
+function memoizeFactorial() {
+    // Create a cache object to store previously calculated results
+    const cache = {};
+
+    return function(n) {
+        // Check if the result is already cached
+        if (cache[n] !== undefined) {
+            console.log(`Factorial of ${n} fetched from cache`);
+            return cache[n];
+        } else {
+            // Calculate the factorial and store it in the cache
+            const result = calculateFactorial(n);
+            cache[n] = result;
+            console.log(`Factorial of ${n} calculated and cached`);
+            return result;
+        }
+    };
+}
+
+// Create a memoized version of the factorial function
+const memoizedFactorial = memoizeFactorial();
+
+// Calculate factorial of 5 (not cached)
+console.log(memoizedFactorial(5)); // Output: Factorial of 5 calculated and cached, 120
+// Calculate factorial of 4 (not cached)
+console.log(memoizedFactorial(4)); // Output: Factorial of 4 calculated and cached, 24
+// Calculate factorial of 5 (fetched from cache)
+console.log(memoizedFactorial(5)); // Output: Factorial of 5 fetched from cache, 120
+// Calculate factorial of 6 (not cached)
+console.log(memoizedFactorial(6)); // Output: Factorial of 6 calculated and cached, 720
+```
