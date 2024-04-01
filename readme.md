@@ -29,8 +29,9 @@ JavaScript is a highly versatile programming language renowned for its ability t
 
 [Note 12: Event Loopo](./12_EVENT_LOOP/event-loop.md)
 
+[Note 13: Basic Error Handling](./13_ERROR_HANDLING/error-handling.md)
+
 <!--
-[Note 09 : Error Handling](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/09-error-handling)
 [Note 10 : ES6+](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/10-es6-plus)
 [Note 11 : Working with API](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/11-api)
 [Note 12 : Libraries and Framework](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/12-lib-n-fw)
