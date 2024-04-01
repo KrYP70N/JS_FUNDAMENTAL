@@ -31,6 +31,7 @@ JavaScript is a highly versatile programming language renowned for its ability t
 
 [Note 13: Basic Error Handling](./13_ERROR_HANDLING/error-handling.md)
 
+
 <!--
 [Note 10 : ES6+](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/10-es6-plus)
 [Note 11 : Working with API](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/11-api)

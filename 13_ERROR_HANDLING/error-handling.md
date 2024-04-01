@@ -110,4 +110,16 @@ try {
 }
 ```
 
+
+## Global Error handling 
+
+You can use global error handling mechanisms, such as `window.onerror` or `window.addEventListener('error')`, to capture unhandled errors that occur anywhere in your application.
+
+```
+window.onerror = function(message, source, lineno, colno, error) {
+  console.error('Unhandled error:', message, source, lineno, colno, error);
+};
+```
+
+
 By implementing proper error handling techniques in your JavaScript code, you can ensure that your applications are more robust, resilient, and user-friendly, ultimately providing a better experience for both developers and end-users.
