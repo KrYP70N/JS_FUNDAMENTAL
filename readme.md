@@ -35,7 +35,6 @@ JavaScript is a highly versatile programming language renowned for its ability t
 
 <!--
 [Note 10 : ES6+](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/10-es6-plus)
-[Note 11 : Working with API](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/11-api)
 [Note 12 : Libraries and Framework](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/12-lib-n-fw)
 [Note 13 : Closure](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/13-closure)
 [Note 14 : Prototype](https://github.com/KrYP70N/JS_FUNDAMENTAL/tree/feature/14-prototype)
